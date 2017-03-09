@@ -21,8 +21,10 @@
       }
     },
     "versionFirst": "3.11.1",
-    "uniqCompNum": 15,
-    "versionPublish": "3.11.1"
+    "uniqCompNum": 16,
+    "versionPublish": "3.11.1",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -30,7 +32,7 @@
         "main": true,
         "title": "",
         "meta_descr": "",
-        "header_custom": "",
+        "header_custom": "<html lang=\"nl\">",
         "footer_custom": "",
         "html_before": ""
       },
@@ -56,9 +58,9 @@
           "_anchor": "header3-0",
           "_params": {
             "paddingTop": "1",
-            "paddingBottom": "0",
+            "paddingBottom": "1",
             "bgColor": "#ffffff",
-            "showMeta": false
+            "showMeta": true
           },
           "title": "<p>DebCred</p>",
           "meta": "Uw financiële administratie in goede handen"
@@ -110,10 +112,10 @@
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-msg-box5",
               "linkInNewWindow": false,
-              "name": "financial-care1",
-              "family": "icon54",
+              "name": "statistic",
+              "family": "iconsMind",
               "link": "",
-              "size": 250,
+              "size": "200",
               "newWindow": false,
               "active": true,
               "color": "#ffffff"
@@ -151,28 +153,27 @@
             "Theme"
           ],
           "_name": "features3",
-          "_anchor": "features3-9",
           "_params": {
-            "paddingTop": "1",
-            "paddingBottom": "0",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": "6",
             "showImages": false,
             "showTitles": true,
             "showSubtitles": false,
             "ShowTexts": false,
-            "showButtons": false
+            "showButtons": false,
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "columns": "6",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "media1": {
             "image": {
@@ -245,32 +246,43 @@
           "title6": "<span style=\"font-weight: normal;\">Belastingaangiften voor particulieren&nbsp;</span>",
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "_customCSS": "",
+          "_customHTML": "<section class=\"mbr-cards mbr-section mbr-section-nopadding\" style=\"background-color: rgb(255, 255, 255);\">\n\n    \n\n    <div class=\"mbr-cards-row row\">\n        <div class=\"mbr-cards-col col-xs-12 col-lg-2\" style=\"padding-top: 40px; padding-bottom: 0px;\">\n            <div class=\"container\">\n              <div class=\"card cart-block\">\n                  \n                  <div class=\"card-block\">\n                    <h4 class=\"card-title mbr-editable-content\" code-editable-id=\"7\"><span style=\"font-weight: normal;\">De volledige finan­ciële boek­hou­ding</span></h4>\n                    \n                    \n                    \n                    </div>\n                </div>\n            </div>\n        </div>\n        <div class=\"mbr-cards-col col-xs-12 col-lg-2\" style=\"padding-top: 40px; padding-bottom: 0px;\">\n            <div class=\"container\">\n                <div class=\"card cart-block\">\n                    \n                    <div class=\"card-block\">\n                        <h4 class=\"card-title mbr-editable-content\" code-editable-id=\"8\"><span style=\"font-weight: normal;\">Verzor­ging van belas­ting­aan­gif­ten, jaar­reke­ning­en, maand­rap­por­ta­ges, winst &amp; ver­lies, ba­lans&nbsp;</span></h4>\n                        \n                        \n                        \n                    </div>\n                </div>\n            </div>\n        </div>\n        <div class=\"mbr-cards-col col-xs-12 col-lg-2\" style=\"padding-top: 40px; padding-bottom: 0px;\">\n            <div class=\"container\">\n                <div class=\"card cart-block\">\n                    \n                    <div class=\"card-block\">\n                        <h4 class=\"card-title mbr-editable-content\" code-editable-id=\"9\"><span style=\"font-weight: normal;\">Finan­ciële de­cla­ra­ties op­stel­len voor sub­si­die­ver­strek­kers&nbsp;</span></h4>\n                        \n                        \n                        \n                    </div>\n                </div>\n            </div>\n        </div>\n        <div class=\"mbr-cards-col col-xs-12 col-lg-2\" style=\"padding-top: 40px; padding-bottom: 0px;\">\n            <div class=\"container\">\n                <div class=\"card cart-block\">\n                    \n                    <div class=\"card-block\">\n                        <h4 class=\"card-title mbr-editable-content\" code-editable-id=\"10\"><span style=\"font-weight: normal;\">Het onder­hou­den van de con­tac­ten met be­las­ting­dienst, ban­ken, klan­ten en le­ve­ran­ciers.</span></h4>\n                        \n                        \n                        \n                    </div>\n                </div>\n            </div>\n        </div>\n        <div class=\"mbr-cards-col col-xs-12 col-lg-2\" style=\"padding-top: 40px; padding-bottom: 0px;\">\n            <div class=\"container\">\n                <div class=\"card cart-block\">\n                    \n                    <div class=\"card-block\">\n                        <h4 class=\"card-title mbr-editable-content\" code-editable-id=\"11\"><span style=\"font-weight: normal;\">Pro­ject­ad­mi­ni­stra­tie</span></h4>\n                        \n                        \n                        \n                    </div>\n                </div>\n            </div>\n        </div>\n        <div class=\"mbr-cards-col col-xs-12 col-lg-2\" style=\"padding-top: 40px; padding-bottom: 0px;\">\n            <div class=\"container\">\n                <div class=\"card cart-block\">\n                    \n                    <div class=\"card-block\">\n                        <h4 class=\"card-title mbr-editable-content\" code-editable-id=\"12\"><span style=\"font-weight: normal;\">Be­las­ting­aan­gif­ten voor par­ti­cu­lie­ren&nbsp;</span></h4>\n                        \n                        \n                        \n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customTemplate": true,
+          "_anchor": "features3-9"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "content6",
+          "_styles": {
+            "P": {
+              "text-align": "left"
+            }
+          },
           "_anchor": "content6-e",
           "_params": {
             "paddingTop": "2",
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "text1": "<p>Er is veel kennis op het gebied van subsidie-trajecten. administratie van WBSO en startende ondernemers</p><p><br></p><p>Veel typen bedrijven kunnen bij DebCred terecht, zoals starters, profit en non-profit bedrijven, grote en kleine MKB's, nationaal en internationaal ge-oriënteerde bedrijven.</p><p><br></p><p>DebCred heeft ervaring met de volgende administratie-pakketten: AccountView, Reeleezee, Multivers-Unit4, Exact-online, Twinfield, Minipak boekhouding en Snelstart.</p><p><br></p><p>Wilt u kennis maken en bekijken of DebCred aansluit bij uw wensen? Neem contact op en er wordt geheel vrijblijvend een afspraak gemaakt.&nbsp;</p>",
-          "text2": "<p>uw financiële administratie in goede handen</p><p><br></p><blockquote><p>Ooststeeg 98</p><p><br></p><p>6708 AX Wageningen</p><p><br></p><p>T: 06 30 44 76 99</p><p><br></p><p>E: info@debcred.nl</p><p><br></p><p>KvK: 51736039</p></blockquote><p><br></p><p><br></p>",
-          "_styles": {
-            "P": {
-              "text-align": "left"
-            }
-          }
+          "text1": "<p>Er is veel kennis op het gebied van subsidie-trajecten. administratie van WBSO en startende ondernemers</p><p><br></p><p>Veel typen bedrijven kunnen bij DebCred terecht, zoals starters, profit en non-profit bedrijven, grote en kleine MKB's, nationaal en internationaal georiënteerde bedrijven.</p><p><br></p><p>DebCred heeft ervaring met de volgende administratie-pakketten: AccountView, Reeleezee, Multivers-Unit4, Exact-online, Twinfield, Minipak boekhouding en Snelstart.</p><p><br></p><p>Wilt u kennis maken en bekijken of DebCred aansluit bij uw wensen? Neem contact op en er wordt geheel vrijblijvend een afspraak gemaakt.&nbsp;</p><p><br></p>",
+          "text2": "<h4>DebCred</h4><p>uw financiële administratie in goede handen</p><p><br></p><blockquote><h4><span style=\"font-size: 1.07rem; font-weight: 300; font-family: Lora, serif; line-height: 1.5;\">Ooststeeg 98</span><br></h4><p><span style=\"font-size: 1.07rem; line-height: 1.5;\">6708 AX Wageningen</span><br></p><p><br></p><p>T: <a href=\"tel:+316\">06 30 44 76 99</a></p><p><br></p><p>E: <a href=\"mailto:info@debcred.nl\">info@debcred.nl</a></p><p><br></p><p>KvK: 51736039</p></blockquote><p><br></p><p><br></p>"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "form1",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            }
+          },
           "_anchor": "form1-c",
           "_params": {
             "labelsColor": "#232323",
@@ -316,12 +328,7 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Verstuur</a>",
-          "_styles": {
-            ".form-control-label": {
-              "color": "#232323"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Verstuur</a>"
         }
       ]
     }
